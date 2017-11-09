@@ -1,0 +1,27 @@
+{
+  "name": "swman",
+  "version": "1.0.0",
+  "description": "Creates and manages service worker files",
+  "main": "./lib/index.js",
+  "bin": {
+    "swman": "./bin/module.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Acanguven/serviceworker-manager.git"
+  },
+  "author": "Ahmet Can Güven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Acanguven/serviceworker-manager/issues"
+  },
+  "homepage": "https://github.com/Acanguven/serviceworker-manager#readme",
+  "preferGlobal": true,
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "minimist": "^1.2.0"
+  }
+}
